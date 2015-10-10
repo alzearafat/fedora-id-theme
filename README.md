@@ -23,7 +23,7 @@ INSTALL :
 1. Download the theme
 2. Unpack inside wp-content/theme
 3. Activate from dashboard >> appearance 
-4. *Install Disqus Comment System plugin*
+4. **Install Disqus Comment System plugin**
 5. Done!
 
 TO-DO :
