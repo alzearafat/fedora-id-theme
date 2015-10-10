@@ -12,9 +12,9 @@
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="card">
+	<div class="card hoverable">
 		<div class="card-image">
-			<?php the_post_thumbnail('large'); ?>
+			<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('large'); ?></a>
 			<span class="card-title"><?php the_title( sprintf( '<h5><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h5>' ); ?></span>
 		</div>
 		<div class="card-content">
